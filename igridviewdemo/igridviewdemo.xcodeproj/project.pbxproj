@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFBFB70E18594B7800C2CFA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBFB70D18594B7800C2CFA6 /* Foundation.framework */; };
+		BFBFB71018594B7800C2CFA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBFB70F18594B7800C2CFA6 /* CoreGraphics.framework */; };
+		BFBFB71218594B7800C2CFA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBFB71118594B7800C2CFA6 /* UIKit.framework */; };
+		BFBFB71818594B7900C2CFA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFBFB71618594B7900C2CFA6 /* InfoPlist.strings */; };
+		BFBFB71A18594B7900C2CFA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFB71918594B7900C2CFA6 /* main.m */; };
+		BFBFB71E18594B7900C2CFA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFB71D18594B7900C2CFA6 /* AppDelegate.m */; };
+		BFBFB72418594B7900C2CFA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFB72318594B7900C2CFA6 /* ViewController.m */; };
+		BFBFB72618594B7900C2CFA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBFB72518594B7900C2CFA6 /* Images.xcassets */; };
+		BFBFB72D18594B7900C2CFA6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBFB72C18594B7900C2CFA6 /* XCTest.framework */; };
+		BFBFB72E18594B7900C2CFA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBFB70D18594B7800C2CFA6 /* Foundation.framework */; };
+		BFBFB72F18594B7900C2CFA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBFB71118594B7800C2CFA6 /* UIKit.framework */; };
+		BFBFB73718594B7900C2CFA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFBFB73518594B7900C2CFA6 /* InfoPlist.strings */; };
+		BFBFB73918594B7900C2CFA6 /* igridviewdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFB73818594B7900C2CFA6 /* igridviewdemoTests.m */; };
+		BFBFB74618594FDA00C2CFA6 /* anime_sniper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFBFB74518594FDA00C2CFA6 /* anime_sniper.jpg */; };
+		BFBFB7491859525B00C2CFA6 /* UITableGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFB7481859525B00C2CFA6 /* UITableGridViewCell.m */; };
+		BFBFB74B1859572500C2CFA6 /* macbook_pro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFBFB74A1859572500C2CFA6 /* macbook_pro.jpg */; };
+		BFBFB74E18595B2B00C2CFA6 /* UIImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFB74D18595B2B00C2CFA6 /* UIImageButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFBFB73018594B7900C2CFA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFBFB70218594B7800C2CFA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFBFB70918594B7800C2CFA6;
+			remoteInfo = igridviewdemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFBFB70A18594B7800C2CFA6 /* igridviewdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = igridviewdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBFB70D18594B7800C2CFA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFBFB70F18594B7800C2CFA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFBFB71118594B7800C2CFA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFBFB71518594B7900C2CFA6 /* igridviewdemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "igridviewdemo-Info.plist"; sourceTree = "<group>"; };
+		BFBFB71718594B7900C2CFA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFBFB71918594B7900C2CFA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFBFB71B18594B7900C2CFA6 /* igridviewdemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "igridviewdemo-Prefix.pch"; sourceTree = "<group>"; };
+		BFBFB71C18594B7900C2CFA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFBFB71D18594B7900C2CFA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFBFB72218594B7900C2CFA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFBFB72318594B7900C2CFA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFBFB72518594B7900C2CFA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFBFB72B18594B7900C2CFA6 /* igridviewdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = igridviewdemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBFB72C18594B7900C2CFA6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BFBFB73418594B7900C2CFA6 /* igridviewdemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "igridviewdemoTests-Info.plist"; sourceTree = "<group>"; };
+		BFBFB73618594B7900C2CFA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFBFB73818594B7900C2CFA6 /* igridviewdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = igridviewdemoTests.m; sourceTree = "<group>"; };
+		BFBFB74518594FDA00C2CFA6 /* anime_sniper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anime_sniper.jpg; sourceTree = "<group>"; };
+		BFBFB7471859525B00C2CFA6 /* UITableGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableGridViewCell.h; sourceTree = "<group>"; };
+		BFBFB7481859525B00C2CFA6 /* UITableGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableGridViewCell.m; sourceTree = "<group>"; };
+		BFBFB74A1859572500C2CFA6 /* macbook_pro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macbook_pro.jpg; sourceTree = "<group>"; };
+		BFBFB74C18595B2B00C2CFA6 /* UIImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageButton.h; sourceTree = "<group>"; };
+		BFBFB74D18595B2B00C2CFA6 /* UIImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFBFB70718594B7800C2CFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBFB71018594B7800C2CFA6 /* CoreGraphics.framework in Frameworks */,
+				BFBFB71218594B7800C2CFA6 /* UIKit.framework in Frameworks */,
+				BFBFB70E18594B7800C2CFA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBFB72818594B7900C2CFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBFB72D18594B7900C2CFA6 /* XCTest.framework in Frameworks */,
+				BFBFB72F18594B7900C2CFA6 /* UIKit.framework in Frameworks */,
+				BFBFB72E18594B7900C2CFA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFBFB70118594B7800C2CFA6 = {
+			isa = PBXGroup;
+			children = (
+				BFBFB71318594B7800C2CFA6 /* igridviewdemo */,
+				BFBFB73218594B7900C2CFA6 /* igridviewdemoTests */,
+				BFBFB70C18594B7800C2CFA6 /* Frameworks */,
+				BFBFB70B18594B7800C2CFA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFBFB70B18594B7800C2CFA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFBFB70A18594B7800C2CFA6 /* igridviewdemo.app */,
+				BFBFB72B18594B7900C2CFA6 /* igridviewdemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFBFB70C18594B7800C2CFA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFBFB70D18594B7800C2CFA6 /* Foundation.framework */,
+				BFBFB70F18594B7800C2CFA6 /* CoreGraphics.framework */,
+				BFBFB71118594B7800C2CFA6 /* UIKit.framework */,
+				BFBFB72C18594B7900C2CFA6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFBFB71318594B7800C2CFA6 /* igridviewdemo */ = {
+			isa = PBXGroup;
+			children = (
+				BFBFB71C18594B7900C2CFA6 /* AppDelegate.h */,
+				BFBFB71D18594B7900C2CFA6 /* AppDelegate.m */,
+				BFBFB72218594B7900C2CFA6 /* ViewController.h */,
+				BFBFB72318594B7900C2CFA6 /* ViewController.m */,
+				BFBFB72518594B7900C2CFA6 /* Images.xcassets */,
+				BFBFB71418594B7900C2CFA6 /* Supporting Files */,
+				BFBFB7471859525B00C2CFA6 /* UITableGridViewCell.h */,
+				BFBFB7481859525B00C2CFA6 /* UITableGridViewCell.m */,
+				BFBFB74C18595B2B00C2CFA6 /* UIImageButton.h */,
+				BFBFB74D18595B2B00C2CFA6 /* UIImageButton.m */,
+			);
+			path = igridviewdemo;
+			sourceTree = "<group>";
+		};
+		BFBFB71418594B7900C2CFA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFBFB74A1859572500C2CFA6 /* macbook_pro.jpg */,
+				BFBFB74518594FDA00C2CFA6 /* anime_sniper.jpg */,
+				BFBFB71518594B7900C2CFA6 /* igridviewdemo-Info.plist */,
+				BFBFB71618594B7900C2CFA6 /* InfoPlist.strings */,
+				BFBFB71918594B7900C2CFA6 /* main.m */,
+				BFBFB71B18594B7900C2CFA6 /* igridviewdemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFBFB73218594B7900C2CFA6 /* igridviewdemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFBFB73818594B7900C2CFA6 /* igridviewdemoTests.m */,
+				BFBFB73318594B7900C2CFA6 /* Supporting Files */,
+			);
+			path = igridviewdemoTests;
+			sourceTree = "<group>";
+		};
+		BFBFB73318594B7900C2CFA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFBFB73418594B7900C2CFA6 /* igridviewdemoTests-Info.plist */,
+				BFBFB73518594B7900C2CFA6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFBFB70918594B7800C2CFA6 /* igridviewdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFBFB73C18594B7900C2CFA6 /* Build configuration list for PBXNativeTarget "igridviewdemo" */;
+			buildPhases = (
+				BFBFB70618594B7800C2CFA6 /* Sources */,
+				BFBFB70718594B7800C2CFA6 /* Frameworks */,
+				BFBFB70818594B7800C2CFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = igridviewdemo;
+			productName = igridviewdemo;
+			productReference = BFBFB70A18594B7800C2CFA6 /* igridviewdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFBFB72A18594B7900C2CFA6 /* igridviewdemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFBFB73F18594B7900C2CFA6 /* Build configuration list for PBXNativeTarget "igridviewdemoTests" */;
+			buildPhases = (
+				BFBFB72718594B7900C2CFA6 /* Sources */,
+				BFBFB72818594B7900C2CFA6 /* Frameworks */,
+				BFBFB72918594B7900C2CFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFBFB73118594B7900C2CFA6 /* PBXTargetDependency */,
+			);
+			name = igridviewdemoTests;
+			productName = igridviewdemoTests;
+			productReference = BFBFB72B18594B7900C2CFA6 /* igridviewdemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFBFB70218594B7800C2CFA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = vincent_guo;
+				TargetAttributes = {
+					BFBFB72A18594B7900C2CFA6 = {
+						TestTargetID = BFBFB70918594B7800C2CFA6;
+					};
+				};
+			};
+			buildConfigurationList = BFBFB70518594B7800C2CFA6 /* Build configuration list for PBXProject "igridviewdemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFBFB70118594B7800C2CFA6;
+			productRefGroup = BFBFB70B18594B7800C2CFA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFBFB70918594B7800C2CFA6 /* igridviewdemo */,
+				BFBFB72A18594B7900C2CFA6 /* igridviewdemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFBFB70818594B7800C2CFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBFB72618594B7900C2CFA6 /* Images.xcassets in Resources */,
+				BFBFB71818594B7900C2CFA6 /* InfoPlist.strings in Resources */,
+				BFBFB74B1859572500C2CFA6 /* macbook_pro.jpg in Resources */,
+				BFBFB74618594FDA00C2CFA6 /* anime_sniper.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBFB72918594B7900C2CFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBFB73718594B7900C2CFA6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFBFB70618594B7800C2CFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBFB72418594B7900C2CFA6 /* ViewController.m in Sources */,
+				BFBFB71E18594B7900C2CFA6 /* AppDelegate.m in Sources */,
+				BFBFB71A18594B7900C2CFA6 /* main.m in Sources */,
+				BFBFB74E18595B2B00C2CFA6 /* UIImageButton.m in Sources */,
+				BFBFB7491859525B00C2CFA6 /* UITableGridViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBFB72718594B7900C2CFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBFB73918594B7900C2CFA6 /* igridviewdemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFBFB73118594B7900C2CFA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFBFB70918594B7800C2CFA6 /* igridviewdemo */;
+			targetProxy = BFBFB73018594B7900C2CFA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFBFB71618594B7900C2CFA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFBFB71718594B7900C2CFA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFBFB73518594B7900C2CFA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFBFB73618594B7900C2CFA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFBFB73A18594B7900C2CFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFBFB73B18594B7900C2CFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFBFB73D18594B7900C2CFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "igridviewdemo/igridviewdemo-Prefix.pch";
+				INFOPLIST_FILE = "igridviewdemo/igridviewdemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFBFB73E18594B7900C2CFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "igridviewdemo/igridviewdemo-Prefix.pch";
+				INFOPLIST_FILE = "igridviewdemo/igridviewdemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BFBFB74018594B7900C2CFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/igridviewdemo.app/igridviewdemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "igridviewdemo/igridviewdemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "igridviewdemoTests/igridviewdemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BFBFB74118594B7900C2CFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/igridviewdemo.app/igridviewdemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "igridviewdemo/igridviewdemo-Prefix.pch";
+				INFOPLIST_FILE = "igridviewdemoTests/igridviewdemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFBFB70518594B7800C2CFA6 /* Build configuration list for PBXProject "igridviewdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBFB73A18594B7900C2CFA6 /* Debug */,
+				BFBFB73B18594B7900C2CFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFBFB73C18594B7900C2CFA6 /* Build configuration list for PBXNativeTarget "igridviewdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBFB73D18594B7900C2CFA6 /* Debug */,
+				BFBFB73E18594B7900C2CFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFBFB73F18594B7900C2CFA6 /* Build configuration list for PBXNativeTarget "igridviewdemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBFB74018594B7900C2CFA6 /* Debug */,
+				BFBFB74118594B7900C2CFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFBFB70218594B7800C2CFA6 /* Project object */;
+}

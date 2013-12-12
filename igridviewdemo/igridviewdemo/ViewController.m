@@ -83,7 +83,9 @@
     return kImageHeight + 5;
 }
 
+
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    //不让tableviewcell有选中效果
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 

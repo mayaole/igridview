@@ -389,6 +389,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "igridviewdemo/igridviewdemo-Prefix.pch";
 				INFOPLIST_FILE = "igridviewdemo/igridviewdemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -402,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "igridviewdemo/igridviewdemo-Prefix.pch";
 				INFOPLIST_FILE = "igridviewdemo/igridviewdemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -468,6 +470,7 @@
 				BFBFB73E18594B7900C2CFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFBFB73F18594B7900C2CFA6 /* Build configuration list for PBXNativeTarget "igridviewdemoTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +479,7 @@
 				BFBFB74118594B7900C2CFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
